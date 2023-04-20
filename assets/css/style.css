@@ -1,0 +1,159 @@
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+li {
+    display: inline
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    background-color: #000f08;
+    color: #ffffff;
+    padding: 15px;
+
+}
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+    margin: 10px 0px 20px 0px;
+
+}
+.icono {
+    width: 2rem;
+}
+.icono svg {
+    width: 25px;
+    fill: white;
+    margin-left: 75px;
+
+
+}
+header {
+    background-image: url(../img/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: end;
+    padding: 100px 250px 80px 250px;
+    position:static;
+
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: 800;
+    font-style: italic
+}
+header h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    opacity: 0.9;
+}
+.lugar {
+    text-align: center;
+    padding: 100px;
+}
+.lugar img{
+    width: 25%;
+    padding: 20px;
+}
+.lugar h2{
+    font-size: 30px;
+}
+.lugar p {
+    padding: 20px 350px 0 400px;
+
+}
+
+#proxima-charla{
+    background-color: chocolate;
+    padding: 100px;
+    color: #ffffff
+
+}
+
+#proxima-charla .wrapper {
+    width: 800px;
+    margin: auto;
+}
+.wrapper h2 {
+    font-size: 200%;
+    padding: 0px 0 10px 0;
+}
+.wrapper h3 {
+    font-size: 150%;
+    padding:0 0 10px 0;
+
+}
+.wrapper h5 {
+    font-size: 150%;
+    font-weight: lighter;
+}
+
+.wrapper img {
+    width: 25%;
+    border-radius: 5px;
+}
+
+.wrapper .texto {
+    width: 70%;
+    margin-left: 4%;
+    
+}
+.wrapper .cursiva {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 70%;
+}
+
+.wrapper img, .texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+ .eventos {
+    text-align: center;
+    border: 0 50px 0 50px;
+    padding: 30px;
+
+} 
+ .eventos h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+/* .eventos h3 {
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+.eventos img {
+    width: 60%;
+    border-radius: 5px;
+}   */
+/* .eventos div {
+    /* display: inline-block; */
+    /* padding: 15px;
+} */ 
+footer {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    background: #000f08;
+    color: #ffffff;
+    padding: 30px;
+
+}
+footer i{
+    margin: 0 10px 20px 0;
+    
+}
